@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+* {
+  color: #1d3557;
+  /* background-image: url("https://images.unsplash.com/photo-1509624776920-0fac24a9dfda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"); */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar {
+  background-color: #d0e2ff;
+  font-family: 'Courgette', cursive;
+  font-family: 'Crimson Text', serif;
+  font-size: 24px;
   color: white;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  font-family: 'Courgette', cursive;
+  font-family: 'Crimson Text', serif;
+  font-weight: 900;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn1 {
+  background-color: #ffadad;
+  border: none;
+  width: 200px;
+}
+.delete {
+  background-color: #ffadad;
+  border: none;
+  float: right;
+}
+
+.edit {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  float:right
+}
+
+.edit:hover, .btn1:hover, .delete:hover {
+  background-color: #a0c4ff ;
+}
+
+.cardclass {
+  background-color: rgba(255, 255, 255, 0.4);
 }

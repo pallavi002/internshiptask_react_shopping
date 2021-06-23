@@ -54,7 +54,7 @@ class Create extends React.Component{
 	render(){
 		return(
 			<div className="container">
-				<h1>Create document</h1>
+				<h1>Add Product</h1>
 				<form onSubmit = {this.onFormSubmit}>
 					<div className="form-group">
 					    <label forhtml="name">name</label>
@@ -68,8 +68,9 @@ class Create extends React.Component{
 
 					<div className="form-group">
 					    <label forhtml="specifications">specifications</label>
-					    <input onChange={this.onInputChange} type="text" className="form-control" id="specifications" placeholder="What's on your mind?" name="specifications"/>
+					    <input onChange={this.onInputChange} type="text" className="form-control" id="specifications" placeholder="Specifications" name="specifications"/>
 					</div>
+          
 					<button type="submit" className="btn btn-primary">Submit</button>
 				</form>
 			</div>
