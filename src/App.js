@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link, Switch, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import firebase from './firebase.js'
-import { Card, Button, Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
+import { Card, Button, Container, Navbar, Nav } from 'react-bootstrap';
 import { faTrash, faEdit, faRupeeSign } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './App.css'
@@ -52,7 +52,7 @@ class App extends React.Component {
 						<Container>
 							<Card style={{ width: '18rem', margin: "25px" }} className="cardclass">
 							<Link to={`/update/${laptop.key}`}><Button className="edit"><FontAwesomeIcon icon={faEdit} /></Button></Link>
-								<Card.Img variant="top" src={laptop.image} class="cardimg" />
+								<Card.Img variant="top" src={laptop.image} className="cardimg" />
 								<Card.Body>
 									<Link to={`/read/${laptop.key}`}><Card.Title className="title">{laptop.name}</Card.Title></Link>
 									<h6>Price: {laptop.price} <FontAwesomeIcon icon={faRupeeSign} /></h6>
@@ -76,7 +76,7 @@ class App extends React.Component {
 	render = () => {
 		return (
 			<div style={{backgroundImage: `url(${"https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80"})`, backgroundSize:"cover"}}>
-				<Navbar class="navbar">
+				<Navbar className="navbar">
 					<Container>
 						<Navbar.Brand href="#home">Laptop Shopping</Navbar.Brand>
 						<Nav className="me-auto">
