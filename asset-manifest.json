@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/internshiptask_react_shopping/static/css/main.2f7039df.chunk.css",
+    "main.js": "/internshiptask_react_shopping/static/js/main.3ead8942.chunk.js",
+    "main.js.map": "/internshiptask_react_shopping/static/js/main.3ead8942.chunk.js.map",
+    "runtime-main.js": "/internshiptask_react_shopping/static/js/runtime-main.10954691.js",
+    "runtime-main.js.map": "/internshiptask_react_shopping/static/js/runtime-main.10954691.js.map",
+    "static/js/2.62da4eee.chunk.js": "/internshiptask_react_shopping/static/js/2.62da4eee.chunk.js",
+    "static/js/2.62da4eee.chunk.js.map": "/internshiptask_react_shopping/static/js/2.62da4eee.chunk.js.map",
+    "static/js/3.5499d75f.chunk.js": "/internshiptask_react_shopping/static/js/3.5499d75f.chunk.js",
+    "static/js/3.5499d75f.chunk.js.map": "/internshiptask_react_shopping/static/js/3.5499d75f.chunk.js.map",
+    "index.html": "/internshiptask_react_shopping/index.html",
+    "static/css/main.2f7039df.chunk.css.map": "/internshiptask_react_shopping/static/css/main.2f7039df.chunk.css.map",
+    "static/js/2.62da4eee.chunk.js.LICENSE.txt": "/internshiptask_react_shopping/static/js/2.62da4eee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10954691.js",
+    "static/js/2.62da4eee.chunk.js",
+    "static/css/main.2f7039df.chunk.css",
+    "static/js/main.3ead8942.chunk.js"
+  ]
+}
